@@ -33,39 +33,41 @@
     <button onclick="myFunction()">Try it</button>
     <p id="finding"></p>
     </section>
-    <section>
-    <h1>String Length</h1>
-    <p>
-      The length of a string is found in the built in property length:
-    </p>
-    <br /><br /><br /><br />
-    <p id="length"></p>
 
+    <section>
+    <h1>Finding a String in a String</h1>
+    <p>
+      The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+    </p>
+    <p id="p2">Please locate where 'locate' occurs!.</p>
+    <button onclick="myFunction1()">Try it</button>
+    <p id="last"></p>
     </section>
 
     <div class="clear"></div>
 
     <section>
-    <h1>Special Characters</h1>
+    <h1>The slice() Method </h1>
     <p>
-      Because strings must be written within quotes, JavaScript will misunderstand
-      this string:
+      slice() extracts a part of a string and returns the extracted part in a new string.
+      The method takes 2 parameters: the starting index (position), and the ending index (position).
+      This example slices out a portion of a string from position 7 to position 13:
     </p>
-    <br /><br /><br />
-    <p id="special"></p>
+    <p id="slice"></p>
     </section>
+
     <section>
       <img src="http://en.es-static.us/upl/2016/02/M42-Orion-Nebula-2-5-2016.jpg"
         alt="Orion Nebula">
     </section>
+
     <section>
-    <h1>Strings Can be Objects </h1>
+    <h1>Replacing String Content</h1>
     <p>
-      Normally, JavaScript strings are primitive values, created from literals:
-      var firstName = "John" But strings can also be defined as objects with the
-      keyword new: var firstName = new String("John")
+      Replace "Microsoft" with "W3Schools" in the paragraph below:
     </p>
-    <p id="object"></p>
+    <button onclick="myFunction2()">Try it</button>
+    <p id="replace">Please visit Microsoft!</p>
     </section>
 
     <!-- NOTE: This tag connects the JS to our HTML-->
